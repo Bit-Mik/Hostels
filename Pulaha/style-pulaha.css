@@ -126,14 +126,21 @@ header .menu{
     display: block;
     letter-spacing: 2px;
     cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: bolder;
     font-size: 1.5rem;
     opacity: 0.4;
+    transition: 0.5s;
 }
 
 .bottom-menu ul a:hover{
+    opacity: 1;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.bottom-menu ul a:focus{
     opacity: 1;
     animation: glow 1s ease-in-out infinite alternate;
 }
