@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    font-family: Poppins;
+    font-size: 12px;
+}
+
+@keyframes navAnimation {
+    to{width:  50%;}
+    from {width: 0% ; overflow: hidden;}
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff
+    }
+    
+    to {
+      text-shadow: 0 0 20px #ffffff
+    }
+  }
+
+body{
+    background-image:url(../pics/IMG_20240219_112346.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    user-select: none;
+    background-repeat: no-repeat;
+}
+
+body::before{
+    content: ' ';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.75;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+a:hover{
+    font-size: 15px;
+    color: rgb(116, 116, 116);
+    font-weight: 500;
+}
+button{
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    font-size: 15px;
+    background-color: #eee5;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    border: none;
+    transition: 0.5s;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 10px;
+    position: relative;   
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    overflow: hidden;
+    list-style-type: none;
+    
+}
+
+header ul a {
+    display: block;
+    margin: 0 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    animation: navAnimation 2s linear forwards;
+    text-decoration: none;
+    color: white;
+
+}
+
+header .logo{
+    font-weight: bold;
+    color: #eee;
+    font-size: 2rem;
+    animation: navAnimation 2s linear forwards;
+}
+
+header .menu{
+    color: white;
+    text-transform: uppercase;
+    list-style: none;      
+}
+
+.bottom-menu{
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    padding: 10px;
+    position: fixed;
+    top: 90%;  
+}
+
+.bottom-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: fit-content;
+    overflow: hidden;
+    list-style-type: none;
+    width: 50rem;
+}
+
+.bottom-menu ul a {
+    display: block;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    opacity: 0.4;
+}
+
+.bottom-menu ul a:hover{
+    opacity: 1;
+    animation: glow 1s ease-in-out infinite alternate;
+}
