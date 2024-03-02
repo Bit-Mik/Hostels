@@ -65,7 +65,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    z-index: 1;
     padding: 10px;
     position: relative;   
 }
@@ -109,7 +109,8 @@ header .menu{
     z-index: 100;
     padding: 10px;
     position: fixed;
-    top: 90%;  
+    top: 90%; 
+    max-width: 50rem; 
 }
 
 .bottom-menu ul{
@@ -119,7 +120,7 @@ header .menu{
     width: fit-content;
     overflow: hidden;
     list-style-type: none;
-    width: 50rem;
+    width: 75rem;
 }
 
 .bottom-menu ul a {
@@ -144,3 +145,19 @@ header .menu{
     opacity: 1;
     animation: glow 1s ease-in-out infinite alternate;
 }
+.data{
+    height: 80vh;
+    max-width: 75rem;
+    position: relative;
+    padding: 1%;
+    overflow: hidden;
+}
+
+.datacont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.datacont .cont{
+    padding: 1rem;
+}
+
