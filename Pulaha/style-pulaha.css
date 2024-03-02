@@ -147,9 +147,9 @@ header .menu{
 }
 .data{
     height: 80vh;
-    max-width: 75rem;
+    max-width: 85rem;
     position: relative;
-    padding: 1%;
+    padding: 2%;
     overflow: hidden;
 }
 
@@ -161,3 +161,13 @@ header .menu{
     padding: 1rem;
 }
 
+.datacont .cont h1{
+    box-shadow: 0 1rem 3rem -0.75rem hsla(0 , 0%, 0% , 0.25);
+    border-radius: 1.5rem;
+    padding-left: 1rem;
+}
+@media screen and (max-width: 600px){
+    .datacont{
+        display: block;
+    }
+}
