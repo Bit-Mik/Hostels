@@ -9,6 +9,7 @@ body{
     background-size: cover;
     overflow:auto;
     user-select: none;
+    min-height: 0;
 }
 a{
     transition: 0.3s;
@@ -239,7 +240,7 @@ button:hover{
     .content h1{
         font-size: 3.5rem;
         letter-spacing: 0.5rem;
-        width: 100rem;
+        
     }
 }
 
