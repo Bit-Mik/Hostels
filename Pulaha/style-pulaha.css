@@ -100,8 +100,10 @@ header .menu{
     z-index: 100;
     padding: 10px;
     position: fixed;
-    top: 90%; 
-    max-width: 50rem; 
+    left: 0%;right: 0%;
+    bottom: 0%;
+    background-color:hsl(0, 0%, 0%);
+    margin-bottom: -4px;
 }
 
 .bottom-menu ul{
@@ -110,8 +112,10 @@ header .menu{
     justify-content:space-between;
     width: fit-content;
     overflow: hidden;
+    margin-left: 0px;
+    padding: 0px;
     list-style-type: none;
-    width: 75rem;
+    width: 100%;
 }
 
 .bottom-menu ul a {
@@ -119,12 +123,12 @@ header .menu{
     letter-spacing: 2px;
     cursor: pointer;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 14px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: bolder;
     font-size: 1.5rem;
-    opacity: 0.4;
+    opacity: 0.9;
     transition: 0.5s;
 }
 
@@ -162,26 +166,7 @@ header .menu{
         display: block;
         overflow: hidden;
     }
-    .bottom-menu{
-        
-        max-width: 100vw;
-        padding: 0%;
-        position: relative;
-    }
     .bottom-menu ul a{
         font-size: 1.2rem;
-        padding-top: 20px;
-        
-    }
-    .bottom-menu ul{
-        width: 30rem;
-        margin-left: 0px;
-    }
-
-    header ul{
-        flex-direction: column;
-    }
-    header ul a{
-        margin: 0.5rem 0;
     }
 }
