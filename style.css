@@ -11,6 +11,9 @@ body{
     user-select: none;
     min-height: 0;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 .thumbnail::-webkit-scrollbar{
     display: none;
 }
