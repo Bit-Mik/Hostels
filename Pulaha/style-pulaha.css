@@ -144,6 +144,8 @@ header .menu{
     animation: glow 1s ease-in-out infinite alternate;
 }
 .data{
+    display: flex;
+    flex-direction: row;
     max-width: 85rem;
     position: relative;
     padding: 2%;
