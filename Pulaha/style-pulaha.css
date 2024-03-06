@@ -97,12 +97,12 @@ header .menu{
     list-style: none;      
 }
 
-.bottom-menu{
+/* .bottom-menu{
     display: flex;
     align-items: center;
     z-index: 100;
     padding: 10px;
-    position: fixed;
+    position: sticky;
     left: 0%;right: 0%;
     bottom: 0%;
     transition: 0.3s;
@@ -142,11 +142,10 @@ header .menu{
 .bottom-menu ul a:focus{
     opacity: 1;
     animation: glow 1s ease-in-out infinite alternate;
-}
+} */
 .data{
     display: flex;
-    flex-direction: row;
-    max-width: 85rem;
+    flex-direction: column;
     position: relative;
     padding: 2%;
     overflow: hidden;
@@ -161,9 +160,8 @@ header .menu{
 }
 
 .datacontent .content h1{
-    box-shadow: 0 1rem 3rem -0.75rem hsla(0 , 0%, 0% , 0.40);
-    border-radius: 1.5rem;
     padding-left: 1rem;
+    border-bottom: 3px solid black;
 }
 @media screen and (max-width: 600px){
    
@@ -171,11 +169,35 @@ header .menu{
         display: block;
         overflow: hidden;
     }
-    .bottom-menu ul a{
+    /* .bottom-menu ul a{
         font-size: 1.2rem;
-        opacity: 1;
+        opacity: 1;} */
+
+    .cards .content{
+        display: flex;
+        flex-direction:column;
     }
-    .bottom-menu{
-        background-color:hsl(0, 0%, 0%);
-    }
+
+}
+
+.cards{
+    background-color: #2d2d2daf;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    box-shadow:2px 4px 15px rgb(39, 39, 39);
+}
+.cards .content{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+.cards h1{
+    display: block;
+    padding-left: 1rem;
+}
+
+
+.cards .contentImg img{
+    border-radius: 1rem;
+    width: 100%;
 }
