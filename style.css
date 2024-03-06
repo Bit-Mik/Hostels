@@ -68,7 +68,7 @@ header .logo{
     font-weight: bold;
     color: #eee;
     font-size: 2rem;
-    animation: navAnimation 2s linear forwards;
+    animation: navAnimation 2.5s linear forwards;
 }
 
 header .menu{
@@ -177,7 +177,7 @@ button:hover{
     z-index: 11;
     display: flex;
     gap: 10px;
-    width: 100%;
+    left: 4.5%;
     box-sizing: border-box;
     overflow-y: hidden;
     scroll-behavior: smooth;
