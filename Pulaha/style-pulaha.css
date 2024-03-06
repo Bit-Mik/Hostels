@@ -21,7 +21,7 @@
   }
 
 body{
-    background-image:url(../pics/IMG_20240219_112346.jpg);
+    background-image:url(../pics/IMG_20240219_112346c.jpg);
     background-blend-mode:color;
     background-color: rgba(0, 0, 0, 0.633);
     background-size: cover;
@@ -150,22 +150,22 @@ header .menu{
     overflow: hidden;
 }
 
-.datacont {
+.datacontent {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.datacont .cont{
+.datacontent .content{
     padding: 1rem;
 }
 
-.datacont .cont h1{
+.datacontent .content h1{
     box-shadow: 0 1rem 3rem -0.75rem hsla(0 , 0%, 0% , 0.40);
     border-radius: 1.5rem;
     padding-left: 1rem;
 }
 @media screen and (max-width: 600px){
    
-    .datacont{
+    .datacontent {
         display: block;
         overflow: hidden;
     }
