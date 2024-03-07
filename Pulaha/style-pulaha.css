@@ -23,7 +23,7 @@
 body{
     background-image:url(../pics/IMG_20240219_112346c.jpg);
     background-blend-mode:color;
-    background-color: rgba(0, 0, 0, 0.633);
+    background-color: rgba(0, 0, 0, 0.681);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -87,7 +87,7 @@ header ul a {
 header .logo{
     font-weight: bold;
     color: #eee;
-    font-size: 2rem;
+    font-size: 2.5rem;
     animation: navAnimation 2s linear forwards;
 }
 
@@ -177,27 +177,61 @@ header .menu{
         display: flex;
         flex-direction:column;
     }
+    .cards{
+        flex-direction: column;
+    }
 
+}
+
+.cards.content p{
+    padding-right: 0.5rem;
 }
 
 .cards{
-    background-color: #2d2d2daf;
     border-radius: 1rem;
     margin-bottom: 1rem;
-    box-shadow:2px 4px 15px rgb(39, 39, 39);
+    transition: 0.5s;
 }
 .cards .content{
     display: flex;
-    padding: 1rem;
-    align-items: center;
+    transition: 0.5s;
 }
 .cards h1{
-    display: block;
-    padding-left: 1rem;
+    color: hsl(0, 1%, 65%);
+    font-size: 6rem;
+    letter-spacing: 0.5rem;
+    width: 100rem;
+    transition: 0.5s;
+}
+
+.cards .contentImg
+{
+    bottom: 20px;
+    z-index: 11;
+    display: flex;
+    border-radius: 1rem;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    
+}
+.cards .contentImg::-webkit-scrollbar{
+    
+    height: .5rem;
+    
+}
+.cards .contentImg::-webkit-scrollbar-thumb{
+    background-color:hsl(0, 1%, 65%);
+    border-radius: 1rem;
 }
 
 
 .cards .contentImg img{
     border-radius: 1rem;
     width: 100%;
+    transition: 0.5s;
+    scroll-snap-align: start ;
 }
