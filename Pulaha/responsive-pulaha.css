@@ -19,5 +19,12 @@
     .page1 h1{
         font-size: 7rem;
     }
+    .about{
+        flex-direction: column;
+        height: auto;
+    }
+    .about .about-detail{
+        width: 90vw;
+    }
 
 }
