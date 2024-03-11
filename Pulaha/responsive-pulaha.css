@@ -1,0 +1,23 @@
+
+@media screen and (max-width: 600px){
+    #nav {
+        height: auto;
+        padding: 1rem;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        gap: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    #nav .menu{
+        padding: 1rem;
+    }
+
+    .page1 h1{
+        font-size: 7rem;
+    }
+
+}
