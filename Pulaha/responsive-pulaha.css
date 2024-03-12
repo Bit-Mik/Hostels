@@ -19,12 +19,19 @@
     .page1 h1{
         font-size: 7rem;
     }
-    .about{
+    .about,.foodandmess{
         flex-direction: column;
         height: auto;
     }
     .about .about-detail{
         width: 90vw;
+    }
+    .foodandmess .foodandmess-detail{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .imgcontainer{
+        max-width: 70vw;
     }
 
 }
