@@ -26,6 +26,9 @@
     .about .about-detail{
         width: 90vw;
     }
+    .foodandmess{
+        padding-top: 10vh;
+    }
     .foodandmess .foodandmess-detail{
         width: 90%;
         margin-bottom: 20px;
