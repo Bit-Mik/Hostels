@@ -131,7 +131,7 @@ button{
     z-index: 10;
     scroll-snap-align:start;
     backdrop-filter: blur(1px);
-    background-image: linear-gradient(to top,black 25%,transparent);
+    background-image: linear-gradient(to top,rgb(0, 0, 0) 5%,transparent);
 }
 
 .page1 h1{
