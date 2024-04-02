@@ -34,7 +34,7 @@
         margin-bottom: 20px;
     }
     .imgcontainer{
-        max-width: 70vw;
+        max-width: 90vw;
     }
     .page3 .banner{
         z-index: 15;
@@ -69,5 +69,11 @@
     }
     .elem h2{
         font-size: 9vw;
+        color: #fff;
+        background-color: transparent;
+    }
+    
+    .elem:hover img {
+        scale: 1;
     }
 }
