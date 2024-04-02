@@ -36,4 +36,38 @@
     .imgcontainer{
         max-width: 70vw;
     }
+    .page3 .banner{
+        z-index: 15;
+        height: 18vh;
+        background-image:linear-gradient(to right top,#c1931e,#b3f54f);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .elem-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        gap: 1rem;
+        top: 9vh;
+    }
+    .page4 h1 {
+        font-size: 15vw;
+        position: absolute;
+        top: -1%;
+        font-weight: 900;
+        color: #000000;
+        -webkit-text-stroke: 0.8px #8cce35;
+        transition: all ease 0.5s;
+      }
+    .elem{
+        width: 100%;
+    }
+    .elem h2{
+        font-size: 9vw;
+    }
 }
