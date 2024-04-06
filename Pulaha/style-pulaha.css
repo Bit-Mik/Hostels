@@ -325,11 +325,11 @@ button{
     position: relative;
     transition: 0.5s;
 }
-.page3 .banner h1:hover{
+/* .page3 .banner h1:hover{
     line-height: 20px;
     font-weight: 900;   
     letter-spacing: 5px;
-}
+} */
 
 .page4 {
   /* width: 100%; */
@@ -340,6 +340,9 @@ button{
   position: relative;
   overflow: scroll;
 }
+/* .page4 h1 .page4:hover{
+    top: -7.5%;
+} */
 .page4::-webkit-scrollbar{
     display: none;
 }
@@ -390,11 +393,20 @@ top: 20vh;
 .page4 h1 {
   font-size: 14vw;
   position: absolute;
-  top: -7.5%;
+  top: 0%;
+  opacity: 0;
   font-weight: 900;
   color: #000;
   -webkit-text-stroke: 2px #fff;
   transition: all ease 0.5s;
+}
+.page4:hover h1{
+    opacity: 1;
+    top: -7.5%;
+}
+#head-text {
+    display: flex;
+    justify-content: center;
 }
 
 

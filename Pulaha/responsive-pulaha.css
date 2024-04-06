@@ -45,6 +45,9 @@
         justify-content: center;
         margin-top: 2rem;
     }
+    .page3 .banner h1{
+        font-size: 7.5vw;
+    }
     .elem-container{
         display: flex;
         justify-content: space-between;
@@ -57,13 +60,18 @@
     }
     .page4 h1 {
         font-size: 15vw;
-        position: absolute;
         top: -1%;
+        opacity: 1;
         font-weight: 900;
         color: #000000;
         -webkit-text-stroke: 0.8px #8cce35;
-        transition: all ease 0.5s;
-      }
+        transition: all ease 0.5s ;
+    }
+    .page4:hover h1{
+        opacity: 1;
+        top: -1%;
+    }
+
     .elem{
         width: 100%;
     }
