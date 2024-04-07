@@ -32,6 +32,7 @@ body::-webkit-scrollbar{
     display: none;
 }
 
+
 a{
     text-decoration: none;
     color: white;
@@ -116,7 +117,12 @@ button{
     scroll-behavior: smooth;
 }
 .main::-webkit-scrollbar{
-    display: none;
+    width: 6px;
+    background-color: #000;
+}
+.main::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 20px;
 }
 
 .page1 {
@@ -445,7 +451,7 @@ padding-bottom: 1rem;
     border-radius: 1rem;
 }
 
-footer{
+.footer{
     background-color: #333333;
 }
 .socialIcons{
@@ -461,7 +467,7 @@ footer{
     font-size: 3rem;
 }
 .footerContainer{
-    padding: 1rem;
+    padding: 1rem 0;
 }
 .footerBottom{
     padding:5px;
