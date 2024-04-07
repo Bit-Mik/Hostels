@@ -167,7 +167,7 @@ button{
     color: rgb(255, 255, 255);
 }
 
-.page2,.page3,.page4{
+.page2,.page3,.page4,.page5{
     min-height: 100vh;
     width: 100%;
     z-index: 10;
@@ -325,14 +325,8 @@ button{
     position: relative;
     transition: 0.5s;
 }
-/* .page3 .banner h1:hover{
-    line-height: 20px;
-    font-weight: 900;   
-    letter-spacing: 5px;
-} */
 
 .page4 {
-  /* width: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -352,6 +346,7 @@ justify-content: space-between;
 padding: 0 1rem;
 position: absolute;
 top: 20vh;
+padding-bottom: 1rem;
 }
 .elem {
   width: 32%;
@@ -365,6 +360,7 @@ top: 20vh;
 .elem h2 {
   height: 100%;
   width: 100%;
+  backdrop-filter: blur(1.5px);
   background: #95c11e;
   display: flex;
   color: #000;
@@ -376,19 +372,23 @@ top: 20vh;
   position: absolute;
   z-index: 10;
 }
+.elem h2:hover{
+    backdrop-filter: blur(0px);
+}
 .elem img {
   height: 100%;
   width: 100%;
+  padding-top: 5px;
   object-fit: cover;
   transition: all ease 0.5s;
-  scale: 1.1;
+  scale: 1.4;
 }
 .elem:hover h2 {
   color: #fff;
   background-color: transparent;
 }
 .elem:hover img {
-  scale: 1;
+  scale: 1.3;
 }
 .page4 h1 {
   font-size: 14vw;
@@ -409,5 +409,39 @@ top: 20vh;
     justify-content: center;
 }
 
+.page5 .head-text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 
+.page5 .head-text h1 {
+    font-size: 14vw;
+    position: relative;
+    letter-spacing: 1vw;
+    font-weight: 900;
+    color: #ffffff;
+}
+.page5 .img-cointainer{
+    padding-bottom: 1rem;
+}
+.page5 .img-gallery{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: row;
+    padding: 0 1rem;
+}
+
+.page5 .img-cointainer .img-gallery .imgelem{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    gap: 1rem;
+}
+
+.page5 .img-cointainer .img-gallery .imgelem img{
+    width: 100%;
+    border-radius: 1rem;
+}
 
