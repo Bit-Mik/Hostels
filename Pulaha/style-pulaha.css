@@ -445,3 +445,36 @@ padding-bottom: 1rem;
     border-radius: 1rem;
 }
 
+footer{
+    background-color: #333333;
+}
+.socialIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socialIcons li{
+    list-style: none;
+    margin:0 1rem;
+}
+.socialIcons li a ion-icon{
+    font-size: 3rem;
+}
+.footerContainer{
+    padding: 1rem;
+}
+.footerBottom{
+    padding:5px;
+    background-color: #000;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
