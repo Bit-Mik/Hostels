@@ -88,4 +88,7 @@
     .elem:hover img {
         scale: 1;
     }
+    .img-gallery .popup-img img{
+        width: 90%;
+    }
 }

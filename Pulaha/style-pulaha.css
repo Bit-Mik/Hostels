@@ -55,19 +55,10 @@ button{
     transition: 0.5s;
 }
 
-/* header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:10px 150px;
-    z-index: 99;
-    position: relative;   
-} */
 
 #nav {
     height: 10rem;
     width: 100dvw;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     position: fixed;
@@ -447,9 +438,39 @@ padding-bottom: 1rem;
     gap: 1rem;
 }
 
-.page5 .img-cointainer .img-gallery .imgelem img{
+.img-gallery .imgelem img{
     width: 100%;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+.img-gallery .popup-img{
+    position: fixed;
+    top: 0; left: 0;
+    background:#000000;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+    transition: ease-in-out 0.5s;
+}
+.img-gallery .popup-img span{
+    position: absolute;
+    top: 0; right: 10%;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+    transition: ease-in-out 0.5s;
+}
+.img-gallery .popup-img img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    width: 33%;
+    transition: ease-in-out 0.5s;
 }
 
 .footer{

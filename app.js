@@ -36,6 +36,7 @@ function showSlider(){
 
 thumbnail.forEach((thumbnail,index)=>{
     thumbnail.addEventListener('click',()=>{
+        console.log("ok");
         itemActive=index;
         showSlider();
     })
