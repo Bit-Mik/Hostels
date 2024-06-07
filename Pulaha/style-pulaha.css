@@ -420,6 +420,15 @@ padding-bottom: 1rem;
     font-weight: 900;
     color: #ffffff;
 }
+@keyframes appear{
+    from{
+    opacity: 0;
+    scale: 0.5;}
+    to{
+    opacity: 1;
+    scale: l;
+    }
+}
 .page5 .img-cointainer{
     padding-bottom: 1rem;
 }
@@ -442,6 +451,9 @@ padding-bottom: 1rem;
     width: 100%;
     border-radius: 1rem;
     cursor: pointer;
+    animation:appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%
 }
 
 .img-gallery .popup-img{
