@@ -3,21 +3,11 @@
     margin: 0;
     font-family: Druk Wide Web;
 }
-@font-face {
-    font-family: Druk Wide Web;
-    src: url(../Assets/Fonts/DrukWide-Medium-Web.eot);
-    src: url(../Assets/Fonts/DrukWide-Medium-Web.eot?#iefix) format("embedded-opentype"),url(../Assets/Fonts/DrukWide-Medium-Web.woff2) format("woff2"),url(../Assets/Fonts/DrukWide-Medium-Web.woff) format("woff");
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal
-}
-@font-face {
-    font-family: Druk Wide Web;
-    src: url(../Assets/Fonts/DrukWide-Super-Web.eot);
-    src: url(../Assets/Fonts/DrukWide-Super-Web.eot?#iefix) format("embedded-opentype"),url(../Assets/Fonts/DrukWide-Super-Web.woff2) format("woff2"),url(../Assets/Fonts/DrukWide-Super-Web.woff) format("woff");
-    font-weight: 900;
-    font-style: normal;
-    font-stretch: normal
+p{
+    color: white;
+    font-family: sans-serif;
+    display: block;
+    mix-blend-mode: difference
 }
 @keyframes slideUp {
     from{
@@ -56,7 +46,7 @@ body::-webkit-scrollbar{
     position: relative;
     z-index: 0;
     display: flex;
-    transition: all 0.5s ease;
+    transition: all 1.2s ease;
     flex-direction: row;
     height: 25vh;
     background-color: white;
@@ -95,7 +85,8 @@ body::-webkit-scrollbar{
     overflow-y: scroll;
     overflow-x: hidden;
     position: relative;
-    background-color: rgb(0, 0, 0);
+    background: white;
+    transition: background 0.5s ease;
     scroll-behavior: smooth;
 }
 #main::-webkit-scrollbar{
@@ -130,9 +121,10 @@ body::-webkit-scrollbar{
     height: 110vh;
     width: 100%;
     z-index: 1;
+    margin-bottom:5vw;
     scroll-snap-align:start;
     background: white;
-    transition:all 0.5s ease;
+    transition:all 1.5s ease;
 }
 
 #page1 #himg{
@@ -142,7 +134,45 @@ body::-webkit-scrollbar{
     height: 110vh;
     z-index: 4;
     opacity: 0;
-    transition:all 1s linear(0 0%, 0 1.8%, 0.01 3.6%, 0.03 6.35%, 0.07 9.1%, 0.13 11.4%, 0.19 13.4%, 0.27 15%, 0.34 16.1%, 0.54 18.35%, 0.66 20.6%, 0.72 22.4%, 0.77 24.6%, 0.81 27.3%, 0.85 30.4%, 0.88 35.1%, 0.92 40.6%, 0.94 47.2%, 0.96 55%, 0.98 64%, 0.99 74.4%, 1 86.4%, 1 100%);
+    transition:.7s cubic-bezier(.755,.05,.855,.06) .3s forwards;
     object-position: 50% 0%;
     animation: slideUpBuilding 1s forwards;
+}
+.intro{
+    width: 100%;
+}
+
+.intro .welcomemsg p strong{
+    font-family: akzidenz-grotesk, sans-serif;
+    font-weight: 900;
+    font-size: 4.7rem;
+    line-height: 1.06em;
+    letter-spacing: 1vw;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.intro .welcomemsg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 6vw;        
+}
+.frontGate .media{
+    width: calc(100% - 15vw);
+    height: 100%;
+}
+.frontGate{
+    display: flex;
+    justify-content: space-between;
+    padding: 12vh 10vw 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(1440px + 20vw);
+}
+.agastyaDetails{
+    padding: 15vh 10vw 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(1440px + 20vw);
 }

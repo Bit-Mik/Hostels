@@ -1,0 +1,29 @@
+@import url("https://p.typekit.net/p.css?s=1&k=duo3tdm&ht=tk&f=19121.19123&a=12497077&app=typekit&e=css");@font-face {
+    font-family: "akzidenz-grotesk";
+    src: url("https://use.typekit.net/af/9d033e/000000000000000000013633/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/9d033e/000000000000000000013633/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/9d033e/000000000000000000013633/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+    font-style: normal;
+    font-weight: 500
+}
+
+@font-face {
+    font-family: "akzidenz-grotesk";
+    src: url("https://use.typekit.net/af/5556ca/000000000000000000013635/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/5556ca/000000000000000000013635/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/5556ca/000000000000000000013635/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-style: normal;
+    font-weight: 400
+}
+@font-face {
+    font-family: Druk Wide Web;
+    src: url(../Assets/Fonts/DrukWide-Medium-Web.eot);
+    src: url(../Assets/Fonts/DrukWide-Medium-Web.eot?#iefix) format("embedded-opentype"),url(../Assets/Fonts/DrukWide-Medium-Web.woff2) format("woff2"),url(../Assets/Fonts/DrukWide-Medium-Web.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal
+}
+@font-face {
+    font-family: Druk Wide Web;
+    src: url(../Assets/Fonts/DrukWide-Super-Web.eot);
+    src: url(../Assets/Fonts/DrukWide-Super-Web.eot?#iefix) format("embedded-opentype"),url(../Assets/Fonts/DrukWide-Super-Web.woff2) format("woff2"),url(../Assets/Fonts/DrukWide-Super-Web.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal
+}
